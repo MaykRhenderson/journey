@@ -19,21 +19,6 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 16px;
     }
   }
-
-  ::-webkit-scrollbar {
-    width: 15px;
-	  background-color: black;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #6750a4;
-    border-radius: 6px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: black;
-    border-radius: 6px;
-  }
 `;
 
 export default GlobalStyle;
